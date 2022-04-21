@@ -12,7 +12,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Parallax
   - 
   - 
   - 
@@ -39,6 +39,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Parallax
+    uniqueID: 2406525315
+    locked: 0
+  - name: RearParallaxGround
+    uniqueID: 4203048305
+    locked: 0
+  - name: ParallaxBackground
+    uniqueID: 1269295817
+    locked: 0
   - name: Background
     uniqueID: 2653765057
     locked: 0
