@@ -160,7 +160,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -227,11 +227,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   enemyState: 0
-  walkDirection: 2
   wallTestLeft: {fileID: 1668180095416603665}
   wallTestRight: {fileID: 1668180095611535398}
   leftEdge: {fileID: 4532630679372128672}
   rightEdge: {fileID: 8548067531479971156}
+  walkDirection: 2
   willTurnAroundAtEdge: 0
 --- !u!95 &-8329743731282777394
 Animator:
@@ -393,6 +393,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1025
   groundCheckCollider: {fileID: 1668180095416603664}
+  landingEffect: {fileID: 0}
+  groundedLastCheck: 0
 --- !u!1 &1668180095611535399
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,6 +469,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1025
   groundCheckCollider: {fileID: 1668180095611535397}
+  landingEffect: {fileID: 0}
+  groundedLastCheck: 0
 --- !u!1 &2229303990487649827
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,6 +628,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1025
   groundCheckCollider: {fileID: 5842111123837050720}
+  landingEffect: {fileID: 0}
+  groundedLastCheck: 0
 --- !u!1 &5553813330030894161
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,3 +704,5 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1025
   groundCheckCollider: {fileID: 1343679326160716715}
+  landingEffect: {fileID: 0}
+  groundedLastCheck: 0
